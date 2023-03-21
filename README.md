@@ -123,14 +123,6 @@ Clone this repository to your desired folder do:
 
 git clone git@github.com:kayjeee/Microverse-Portfolio.git
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
@@ -152,7 +144,7 @@ N/A
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+
 
 👤 **Author1**
 
@@ -163,7 +155,7 @@ N/A
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I Give credit to Micro Verse for inspiring this project
+
 
 I would like to thank my partnerS in microverse for helping out in completing this master piece
 
