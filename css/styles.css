@@ -50,6 +50,18 @@ body {
   font-weight: 700;
 }
 
+/* Hide hamburger button by default */
+.hamburger {
+  display: none;
+}
+
+/* Show hamburger button for screen widths up to 768px */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
 .hamburger {
   position: relative;
   z-index: 1000;
