@@ -1,3 +1,58 @@
 h1 {
   color: green;
 }
+
+
+.headline-section {
+  background: var(--white) no-repeat url(../images/headline.svg);
+  background-size: 100%;
+  border-bottom-left-radius: 75px;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  top: 15%;
+  padding: 2.5rem;
+  position: absolute;
+}
+
+.headline-heading {
+  font-size: 4rem;
+  color: var(--color-headings);
+  line-height: 1.1;
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.headline-text {
+  color: var(--color-text);
+  margin-top: 2rem;
+  padding-right: 0.2rem;
+  font-size: 2rem;
+  line-height: 32px;
+}
+
+.connect-text {
+  font-weight: 500;
+  color: #5461d4;
+  margin-top: 1rem;
+}
+
+.headline-icons {
+  margin-top: 0.5rem;
+  list-style: none;
+  display: flex;
+}
+
+.headline-icon {
+  padding: 0.7rem;
+}
