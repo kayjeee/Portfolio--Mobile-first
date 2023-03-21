@@ -50,8 +50,7 @@ body {
   font-weight: 700;
 }
 
-@media (max-width: 768px) 
-  {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
     }
