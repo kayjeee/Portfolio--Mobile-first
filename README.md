@@ -48,12 +48,12 @@ After you're finished please remove all the comments and instructions!
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-
+S
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio--Mobile Frst <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+
 
 **Portfolio--Mobile Frst** is a project for web designer Portfolio
 
@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+
 
 <details>
   <summary>Html</summary>
@@ -88,7 +88,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+
 
 - **full screen css settings**
 
@@ -99,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+
 
 N/A
 
@@ -109,7 +109,7 @@ N/A
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
->iF you need to make a portfolio for your website you can use this website
+
 
 To get a local copy up and running, follow these steps.
 
