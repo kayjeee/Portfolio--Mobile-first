@@ -51,7 +51,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hamburger-button {
+  .hamburger {
     display: block;
   }
 }
