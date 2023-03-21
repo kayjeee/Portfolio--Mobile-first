@@ -50,12 +50,6 @@ body {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-}
-
 .hamburger {
   position: relative;
   z-index: 1000;
@@ -64,7 +58,6 @@ body {
   padding: 4px;
   cursor: grabbing;
   margin-bottom: 2rem;
-  display: none;
 }
 
 .navigation-bar {
