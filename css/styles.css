@@ -51,10 +51,10 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hamburger {
+  .hamburger-button {
     display: block;
-    }
   }
+}
 
 .hamburger {
   position: relative;
