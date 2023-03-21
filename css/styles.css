@@ -50,12 +50,6 @@ body {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-}
-
 .hamburger {
   position: relative;
   z-index: 1000;
