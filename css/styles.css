@@ -51,11 +51,13 @@ body {
 }
 
 /* Hide hamburger button by default */
+
 .hamburger {
   display: none;
 }
 
 /* Show hamburger button for screen widths up to 768px */
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
