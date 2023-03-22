@@ -614,7 +614,7 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 10px;
   gap: 10px;
   width: 320px;
   height: 40px;
@@ -659,15 +659,12 @@ p#modal-close {
   margin-top: 2rem;
 }
 
-/*Portfolio*/
-
 .portfolio {
 position: absolute;
 width: 544px;
 height: 448px;
 left: 24px;
 top: 24px;
-
 background: url(blog_drbl_4x);
 border-radius: 8px;
 }
