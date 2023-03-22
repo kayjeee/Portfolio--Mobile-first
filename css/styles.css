@@ -659,12 +659,3 @@ p#modal-close {
   margin-top: 2rem;
 }
 
-.portfolio {
-position: absolute;
-width: 544px;
-height: 448px;
-left: 24px;
-top: 24px;
-background: url(blog_drbl_4x);
-border-radius: 8px;
-}
