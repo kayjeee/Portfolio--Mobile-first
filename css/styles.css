@@ -139,7 +139,7 @@ i.cross-icon.fa-solid.fa-times {
   max-width: 100rem;
   margin: 0 auto;
   margin-top: 1rem;
-  top: 15%;
+  top: 7%;
   padding: 2.5rem;
   position: absolute;
 }
@@ -226,6 +226,7 @@ i.cross-icon.fa-solid.fa-times {
 
 .small-heading {
   color: #172b4d;
+  padding-left: 16px;
   font-size: 3.2rem;
 }
 
@@ -245,7 +246,7 @@ i.cross-icon.fa-solid.fa-times {
 }
 
 .card-body p {
-  margin: 0.5rem 1rem 0 0;
+  margin: 0.5rem 1rem 0 33px;
 }
 
 .large-list {
@@ -258,6 +259,7 @@ i.cross-icon.fa-solid.fa-times {
   gap: 0.8rem;
   list-style: none;
   margin-top: 1rem;
+  padding-left: 20px;
 }
 
 .categories li {
@@ -269,13 +271,15 @@ i.cross-icon.fa-solid.fa-times {
 }
 
 .btn {
-  padding: 1.5rem 2.2rem;
+  margin-left: 30px;
+  padding: 1.5rem 4.2rem;
   margin-top: 3rem;
-  border-radius: 10px;
-  border: 1px solid #396df2;
+  border-radius: 5px;
+  border: 2px solid #396df2;
   color: #396df2;
   background-color: #fff;
   font-size: 1.7rem;
+  padding-left: 54px;
 }
 
 .btn:hover {
@@ -608,9 +612,13 @@ textarea {
 
 .card-specs {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  column-gap: 1rem;
-  margin: 0 14px;
+  padding: 0px;
+  gap: 10px;
+  width: 320px;
+  height: 40px;
+  padding-left: 25px;
 }
 
 .small-modal {
@@ -649,4 +657,17 @@ p#modal-close {
 
 .modal-btn {
   margin-top: 2rem;
+}
+
+/*Portfolio*/
+
+.portfolio {
+position: absolute;
+width: 544px;
+height: 448px;
+left: 24px;
+top: 24px;
+
+background: url(blog_drbl_4x);
+border-radius: 8px;
 }
