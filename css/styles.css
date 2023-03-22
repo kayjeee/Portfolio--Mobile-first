@@ -180,7 +180,7 @@ i.cross-icon.fa-solid.fa-times {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  margin-top: 10rem;
+  margin-top: 11rem;
 }
 
 .card {
@@ -190,7 +190,7 @@ i.cross-icon.fa-solid.fa-times {
   background: var(--white);
   border-radius: 20px;
   margin-bottom: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   width: 80vw;
 }
 
