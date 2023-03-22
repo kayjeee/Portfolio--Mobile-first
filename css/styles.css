@@ -167,7 +167,7 @@ i.cross-icon.fa-solid.fa-times {
 }
 
 .headline-icons {
-  margin-top: 0.5rem;
+  margin-top: -0.5rem;
   list-style: none;
   display: flex;
 }
@@ -180,7 +180,7 @@ i.cross-icon.fa-solid.fa-times {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  margin-top: 11rem;
+  margin-top: 10rem;
 }
 
 .card {
@@ -190,7 +190,7 @@ i.cross-icon.fa-solid.fa-times {
   background: var(--white);
   border-radius: 20px;
   margin-bottom: 10rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   width: 80vw;
 }
 
@@ -573,7 +573,7 @@ textarea {
 .popup {
   margin: 10px 0;
   position: fixed;
-  top: -40%;
+  top: -35%;
   left: 50%;
   transform: translate(-50%, 50%);
   width: 80%;
