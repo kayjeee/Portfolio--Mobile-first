@@ -92,10 +92,10 @@
   </div>
 </section>
 
-<!-- Work section -->
+<!-- Work section also falls under middle section -->
 <section id="portoliolarge-portfolio"></section>
 
-<!-- Modal-Window -->
+<!-- Modal-Window also count as middle section  -->
 <div class="popup-overlay"></div>
 <div class="popup" id="modal1">
   <div class="header-pop">
@@ -144,7 +144,7 @@
       <div class="categories-list categories-mobile">
         <div class="languages-div">
           <ul class="categories">
-            <li>html</li>
+            <li> html</li>
             <li>css</li>
             <li>javascript</li>
           </ul>
@@ -155,8 +155,8 @@
           </ul>
         </div>
         <div class="modal-btn">
-
-            href="https://github.com/kayjeee/Portfolio-project"
+          <a
+            href="https://graycemuthui.github.io/Microverse-Portfolio/"
             class="mobile-btn btn"
           >
             See Live
@@ -165,6 +165,7 @@
             </span>
           </a>
           <a
+            href="https://github.com/Graycemuthui/Microverse-Portfolio"
             class="mobile-btn btn"
           >
             See Source
@@ -232,7 +233,7 @@
           /></a>
         </li>
       </ul>
-      <button class="about-button">Get my resume</button>
+      <button class="about-button">Get my resume,hire me</button>
     </div>
     <div class="language-section">
       <ul class="lang">
@@ -276,6 +277,44 @@
   </div>
 </section>
 
+<!-- Contact Section Page-->
+<section id="contact" class="contact-sectionbro">
+  <div class="contact-container">
+    <h2 class="contact-header">Contact Me</h2>
+    <p class="contact-paragraph">
+      If you have an application you are interested in developing, a feature
+      that you need built or a project that needs coding. I’d love to help
+      with it
+
+    </p>
+    <form action="https://formspree.io/f/mnqygaba"  method="POST" >
+       <input class="text-input"
+        placeholder="Full Name"
+        maxlength="30"
+        required
+      />
+      <input class="text-input"
+        type="email" 
+        id="email" 
+        placeholder="Email" 
+        required
+      />
+      <textarea 
+        name="message"
+        id="message" 
+        cols="30"
+        rows="10"
+        placeholder="Write your message here" 
+        maxlength="500"
+        required
+      >
+      </textarea>
+      <div id="error"></div>
+      <button class="contact-btn" type="submit">Get in Touch</button>
+    </form>
+  </div>
+</section>
 </body>
 
+<script src="javascript/index.js"></script>
 </html>
