@@ -77,13 +77,6 @@ S
   </ul>
 </details>
 
-<details>
-<summary>Js</summary>
-  <ul>
-    <li><a href="https://www.javascript.com/">JS</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
