@@ -659,3 +659,23 @@ p#modal-close {
 .modal-btn {
   margin-top: 2rem;
 }
+
+/* define the animation */
+@keyframes contact-btn-animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* apply the animation to the element */
+.contact-btn {
+  animation: contact-btn-animation 1s ease-in-out infinite;
+}
