@@ -661,6 +661,7 @@ p#modal-close {
 }
 
 /* Desktop Version */
+
 @media screen and (min-width: 768px) {
   .headline-section {
     height: 100vh;
@@ -699,6 +700,7 @@ p#modal-close {
   .nav-bar {
     display: inline-block;
   }
+
   /* Contact Section */
 
   .contact-section {
@@ -910,7 +912,9 @@ p#modal-close {
     justify-content: center;
     align-items: center;
   }
+
    /* About Section */
+
    .about-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
