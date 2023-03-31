@@ -910,4 +910,31 @@ p#modal-close {
     justify-content: center;
     align-items: center;
   }
+   /* About Section */
+   .about-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    align-items: center;
+    height: 644px;
+    background: var(--white);
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .languages li {
+    width: 122px;
+    height: 120px;
+    background-color: #f7f7f9;
+    margin-top: 0.8rem;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
 }
