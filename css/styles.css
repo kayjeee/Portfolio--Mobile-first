@@ -659,3 +659,20 @@ p#modal-close {
 .modal-btn {
   margin-top: 2rem;
 }
+
+/* Desktop Version */
+@media screen and (min-width: 768px) {
+  .headline-section {
+    height: 100vh;
+    background: var(--white) url(../images/background.svg);
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+  }
+}
