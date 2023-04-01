@@ -845,6 +845,7 @@ p#modal-close {
   }
 
   /* About Section */
+  
   .about-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -872,8 +873,6 @@ p#modal-close {
   padding: -8.5rem;
   }
 
-
-
   .about-container {
   max-width: 20%;
   padding-left: 59px;
@@ -890,10 +889,10 @@ p#modal-close {
   line-height: 2.4rem;
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  /* margin-left: -1px; */
   left: 1px;
   padding-right: 100px;
   }
+
   .about-button {
   padding: 1.5rem 2.2rem;
   margin-top: 3rem;
