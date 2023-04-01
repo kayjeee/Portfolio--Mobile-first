@@ -724,7 +724,7 @@ p#modal-close {
     justify-content: center;
     align-items: center;
     padding-left: 10rem;
-  }
+}
   .headline-text {
   color: var(--color-text);
   margin-top: 2rem;
@@ -1956,7 +1956,7 @@ p#modal-close {
     font-size: small;
     /* max-width: 150%; */
     width: 379px;
-    }
+}
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -1972,7 +1972,7 @@ p#modal-close {
   .flex-item1 {
     display: flex;
     flex-direction: row-reverse;
-    }
+  }
 
   .form-inputs {
     display: flex;
