@@ -439,6 +439,7 @@ i.cross-icon.fa-solid.fa-times {
   font-weight: bold;
   margin: 0;
 }
+
 .lang .lang-exp .no-1 span i {
   color: #acb7c3;
 }
@@ -681,6 +682,7 @@ p#modal-close {
     padding: 2.5rem;
     position: absolute;
   }
+
   .header {
   background: var(--white);
   position: absolute;
@@ -690,23 +692,23 @@ p#modal-close {
   text-align: center;
   line-height: 20px;
   order: 0;
-  flex: -17px;
   flex: none;
   flex-grow: 0px;
   height: 61px;
   display: flex;
   width: 80%;
-  top: 7px;
   left: 118px;
   top: -2px;
   z-index: 1;
   }
+
   .logo {
     text-decoration: none;
     color: var(--color-accent);
     font-size: 1.8rem;
     font-weight: 700;
   }
+
   .headline-section {
     height: 100vh;
     background: var(--white) url(../images/background.svg);
@@ -725,6 +727,7 @@ p#modal-close {
     align-items: center;
     padding-left: 10rem;
 }
+
   .headline-text {
   color: var(--color-text);
   margin-top: 2rem;
@@ -738,6 +741,7 @@ p#modal-close {
   margin-left: -3px;
   max-width: 47rem;
   }
+
   .nav-menu li a {
   color: #000;
   list-style-type: none;
@@ -845,7 +849,7 @@ p#modal-close {
   }
 
   /* About Section */
-  
+
   .about-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -870,7 +874,7 @@ p#modal-close {
   margin-top: -5rem;
   top: 35%;
   left: 167px;
-  padding: -8.5rem;
+  padding:-8.5rem;
   }
 
   .about-container {
