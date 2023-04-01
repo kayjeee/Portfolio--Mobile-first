@@ -725,7 +725,7 @@ p#modal-close {
     align-items: center;
     padding-left: 10rem;
   }
-.headline-text {
+  .headline-text {
   color: var(--color-text);
   margin-top: 2rem;
   padding-left: -0.8rem;
@@ -737,7 +737,7 @@ p#modal-close {
   margin-top: 0rem;
   margin-left: -3px;
   max-width: 47rem;
-}
+  }
 .nav-menu li a {
   color: #000;
   list-style-type: none;
@@ -855,13 +855,13 @@ p#modal-close {
     width: 110%;
   }
   
-.about-header {
+  .about-header {
   color: var(--color-headings);
   font-size: 4rem;
   margin-top: 5rem;
-}
+  }
 
-.language-section {
+  .language-section {
   max-width: 20%;
   padding-left: 59px;
   max-width: 56rem;
@@ -870,11 +870,11 @@ p#modal-close {
   top: 35%;
   left: 167px;
   padding: -8.5rem;
-}
+  }
 
 
 
-.about-container {
+  .about-container {
   max-width: 20%;
   padding-left: 59px;
   max-width: 56rem;
@@ -882,18 +882,17 @@ p#modal-close {
   margin-top: 5rem;
   top: 35%;
   left: 167px;
-}
+  }
 
-.about-page p {
+  .about-page p {
   color: var(--color-text);
   line-height: 2.4rem;
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  /* margin-left: -1px; */
   left: 1px;
   padding-right: 100px;
-}
-.about-button {
+  }
+  .about-button {
   padding: 1.5rem 2.2rem;
   margin-top: 3rem;
   border-radius: 10px;
@@ -901,26 +900,26 @@ p#modal-close {
   color: #396df2;
   font-size: 1.7rem;
   background-color: #fff;
-}
+  }
 
-.about-button:hover {
+  .about-button:hover {
   background-color: #6070ff;
   color: var(--white);
   transition: all 1000ms ease-in-out;
-}
+  }
 
-.about-button:active {
+  .about-button:active {
   background-color: #2230d2;
   color: var(--white);
-}
+  }
 
-.languages {
+  .languages {
   display: flex;
   flex-direction: row;
   padding-right: 115px;
-}
+  }
 
-.languages li {
+  .languages li {
   width: 122px;
   height: 120px;
   background-color: #f7f7f9;
