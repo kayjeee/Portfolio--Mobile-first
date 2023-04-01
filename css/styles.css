@@ -686,7 +686,7 @@ p#modal-close {
   .header {
     background: var(--white);
     position: absolute;
-    font-family:"Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 19px;
     font-weight: 700;
     text-align: center;
