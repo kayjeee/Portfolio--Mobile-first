@@ -532,16 +532,6 @@ textarea {
   align-items: center;
   width: 847px;
 }
-.wide-input {
-  width: 300px;
-}
-.text-input {
-  border-radius: 0;
-}
-
-textarea {
-  border-radius: 0;
-}
 
 .contact-btn {
   padding: 1.5rem 2.2rem;
