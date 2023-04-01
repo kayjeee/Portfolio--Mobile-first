@@ -684,22 +684,22 @@ p#modal-close {
   }
 
   .header {
-  background: var(--white);
-  position: absolute;
-  font-family: "Poppins";
-  font-size: 19px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 20px;
-  order: 0;
-  flex: none;
-  flex-grow: 0px;
-  height: 61px;
-  display: flex;
-  width: 80%;
-  left: 118px;
-  top: -2px;
-  z-index: 1;
+    background: var(--white);
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    order: 0;
+    flex: none;
+    flex-grow: 0px;
+    height: 61px;
+    display: flex;
+    width: 80%;
+    left: 118px;
+    top: -2px;
+    z-index: 1;
   }
 
   .logo {
@@ -729,24 +729,23 @@ p#modal-close {
 }
 
   .headline-text {
-  color: var(--color-text);
-  margin-top: 2rem;
-  padding-left: -0.8rem;
-  font-size: 1rem;
-  /* height: 0px; */
-  max-height: 100px;
-  line-height: 22px;
-  margin: -1px -27px;
-  margin-top: 0rem;
-  margin-left: -3px;
-  max-width: 47rem;
+    color: var(--color-text);
+    margin-top: 2rem;
+    padding-left: -0.8rem;
+    font-size: 1rem;
+    max-height: 100px;
+    line-height: 22px;
+    margin: -1px -27px;
+    margin-top: 0rem;
+    margin-left: -3px;
+    max-width: 47rem;
   }
 
   .nav-menu li a {
-  color: #000;
-  list-style-type: none;
-  font-weight: 420;
-  font-size: 1.1rem;
+    color: #000;
+    list-style-type: none;
+    font-weight: 420;
+    font-size: 1.1rem;
   }
 
   .nav-bar .fa-bars {
