@@ -736,7 +736,6 @@ p#modal-close {
     max-height: 100px;
     line-height: 22px;
     margin: -1px -27px;
-    margin-top: 0rem;
     margin-left: -3px;
     max-width: 47rem;
   }
@@ -764,7 +763,6 @@ p#modal-close {
 
   .nav-bar {
     display: inline-block;
-    
   }
 
   .headline-icons li a {
@@ -848,6 +846,7 @@ p#modal-close {
   }
 
   /* About Section */
+
   .about-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -857,7 +856,7 @@ p#modal-close {
     background: var(--white);
     width: 110%;
   }
-  
+
   .about-header {
     color: var(--color-headings);
     font-size: 4rem;
