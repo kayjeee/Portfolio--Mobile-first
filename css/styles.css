@@ -439,6 +439,7 @@ i.cross-icon.fa-solid.fa-times {
   font-weight: bold;
   margin: 0;
 }
+
 .lang .lang-exp .no-1 span i {
   color: #acb7c3;
 }
@@ -681,26 +682,28 @@ p#modal-close {
     padding: 2.5rem;
     position: absolute;
   }
+
   .header {
-  background: var(--white);
-  position: absolute;
-  font-family: "Poppins";
-  font-size: 19px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 20px;
-  order: 0;
-  flex: -17px;
-  flex: none;
-  flex-grow: 0px;
-  height: 61px;
-  display: flex;
-  width: 80%;
-  top: 7px;
-  left: 118px;
-  top: -2px;
-  z-index: 1;
+    background: var(--white);
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    order: 0;
+    flex: -17px;
+    flex: none;
+    flex-grow: 0px;
+    height: 61px;
+    display: flex;
+    width: 80%;
+    top: 7px;
+    left: 118px;
+    top: -2px;
+    z-index: 1;
   }
+
   .logo {
     text-decoration: none;
     color: var(--color-accent);
@@ -726,23 +729,24 @@ p#modal-close {
     padding-left: 10rem;
   }
   .headline-text {
-  color: var(--color-text);
-  margin-top: 2rem;
-  padding-left: -0.8rem;
-  font-size: 1rem;
+    color: var(--color-text);
+    margin-top: 2rem;
+    padding-left: -0.8rem;
+    font-size: 1rem;
   /* height: 0px; */
-  max-height: 100px;
-  line-height: 22px;
-  margin: -1px -27px;
-  margin-top: 0rem;
-  margin-left: -3px;
-  max-width: 47rem;
+    max-height: 100px;
+    line-height: 22px;
+    margin: -1px -27px;
+    margin-top: 0rem;
+    margin-left: -3px;
+    max-width: 47rem;
   }
-.nav-menu li a {
-  color: #000;
-  list-style-type: none;
-  font-weight: 420;
-  font-size: 1.1rem;
+
+  .nav-menu li a {
+    color: #000;
+    list-style-type: none;
+    font-weight: 420;
+    font-size: 1.1rem;
   }
 
   .nav-bar .fa-bars {
