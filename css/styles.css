@@ -733,7 +733,6 @@ p#modal-close {
     margin-top: 2rem;
     padding-left: -0.8rem;
     font-size: 1rem;
-  /* height: 0px; */
     max-height: 100px;
     line-height: 22px;
     margin: -1px -27px;
@@ -873,11 +872,9 @@ p#modal-close {
     margin-top: -5rem;
     top: 35%;
     left: 167px;
-    padding: -8.5rem;
   }
 
   .about-container {
-    max-width: 20%;
     padding-left: 59px;
     max-width: 56rem;
     margin: 633px auto;
@@ -894,6 +891,7 @@ p#modal-close {
     left: 1px;
     padding-right: 100px;
   }
+
   .about-button {
     padding: 1.5rem 2.2rem;
     margin-top: 3rem;
