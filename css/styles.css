@@ -686,7 +686,7 @@ p#modal-close {
   .header {
     background: var(--white);
     position: absolute;
-    font-family: "Poppins";
+    font-family:"Poppins", sans-serif;
     font-size: 19px;
     font-weight: 700;
     text-align: center;
@@ -694,7 +694,6 @@ p#modal-close {
     order: 0;
     flex: -17px;
     flex: none;
-    flex-grow: 0px;
     height: 61px;
     display: flex;
     width: 80%;
@@ -726,6 +725,7 @@ p#modal-close {
     align-items: center;
     padding-left: 10rem;
   }
+
   .headline-text {
     padding-left: -0.8rem;
     font-size: 1rem;
