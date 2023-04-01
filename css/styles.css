@@ -504,7 +504,7 @@ label {
   padding: 1.2rem;
   border-radius: 10px;
   margin-top: 1.2rem;
-  width: 100%;
+  width: 115%;
   border: none;
 }
 
@@ -521,9 +521,26 @@ label {
 
 textarea {
   margin-top: 1.2rem;
-  width: 100%;
+  width: 115%;
   border-radius: 10px;
   padding: 1.5rem;
+}
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 847px;
+}
+.wide-input {
+  width: 300px;
+}
+.text-input {
+  border-radius: 0;
+}
+
+textarea {
+  border-radius: 0;
 }
 
 .contact-btn {
@@ -752,7 +769,7 @@ p#modal-close {
     height: 0;
     background: none;
     display: flex;
-    margin: 0.1rem 60rem;
+    margin: 3.1rem 60rem;
     padding-bottom: 3rem;
     position: fixed;
   }
@@ -971,9 +988,11 @@ p#modal-close {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 447px;
+    width: 847px;
   }
-
+  .wide-input {
+    width: 300px;
+}
   .text-input {
     border-radius: 0;
   }
