@@ -882,7 +882,6 @@ p#modal-close {
   margin-top: 5rem;
   top: 35%;
   left: 167px;
-  padding: -8.5rem;
 }
 
 .about-page p {
@@ -931,7 +930,7 @@ p#modal-close {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
+  }
 
   /* Contact Section */
 
@@ -956,9 +955,9 @@ p#modal-close {
 
   .contact-paragraph {
     font-size: small;
-    /* max-width: 150%; */
     width: 379px;
-}
+  }
+
   .contact-container {
     display: flex;
     flex-direction: column;
