@@ -860,79 +860,79 @@ p#modal-close {
   }
   
   .about-header {
-  color: var(--color-headings);
-  font-size: 4rem;
-  margin-top: 5rem;
+    color: var(--color-headings);
+    font-size: 4rem;
+    margin-top: 5rem;
   }
 
   .language-section {
-  max-width: 20%;
-  padding-left: 59px;
-  max-width: 56rem;
-  margin: 516px auto;
-  margin-top: -5rem;
-  top: 35%;
-  left: 167px;
-  padding:-8.5rem;
+    max-width: 20%;
+    padding-left: 59px;
+    max-width: 56rem;
+    margin: 516px auto;
+    margin-top: -5rem;
+    top: 35%;
+    left: 167px;
+    padding:-8.5rem;
   }
 
   .about-container {
-  max-width: 20%;
-  padding-left: 59px;
-  max-width: 56rem;
-  margin: 633px auto;
-  margin-top: 5rem;
-  top: 35%;
-  left: 167px;
-  padding: -8.5rem;
+    max-width: 20%;
+    padding-left: 59px;
+    max-width: 56rem;
+    margin: 633px auto;
+    margin-top: 5rem;
+    top: 35%;
+    left: 167px;
+    padding: -8.5rem;
   }
 
   .about-page p {
-  color: var(--color-text);
-  line-height: 2.4rem;
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-  left: 1px;
-  padding-right: 100px;
+    color: var(--color-text);
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    left: 1px;
+    padding-right: 100px;
   }
 
   .about-button {
-  padding: 1.5rem 2.2rem;
-  margin-top: 3rem;
-  border-radius: 10px;
-  border: 1px solid #396df2;
-  color: #396df2;
-  font-size: 1.7rem;
-  background-color: #fff;
+    padding: 1.5rem 2.2rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    border: 1px solid #396df2;
+    color: #396df2;
+    font-size: 1.7rem;
+    background-color: #fff;
   }
 
   .about-button:hover {
-  background-color: #6070ff;
-  color: var(--white);
-  transition: all 1000ms ease-in-out;
+    background-color: #6070ff;
+    color: var(--white);
+    transition: all 1000ms ease-in-out;
   }
 
   .about-button:active {
-  background-color: #2230d2;
-  color: var(--white);
+    background-color: #2230d2;
+    color: var(--white);
   }
 
   .languages {
-  display: flex;
-  flex-direction: row;
-  padding-right: 115px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 115px;
   }
 
   .languages li {
-  width: 122px;
-  height: 120px;
-  background-color: #f7f7f9;
-  margin-top: 0.8rem;
-  gap: 1.5rem;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    width: 122px;
+    height: 120px;
+    background-color: #f7f7f9;
+    margin-top: 0.8rem;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   /* Contact Section */
