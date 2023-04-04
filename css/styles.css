@@ -675,6 +675,10 @@ p#modal-close {
   margin-top: 2rem;
 }
 
+.formlabel {
+  display: none;
+}
+
 /* Desktop Version */
 @media screen and (min-width: 768px) {
   .headline-container {
