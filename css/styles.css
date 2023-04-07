@@ -524,6 +524,7 @@ textarea {
   padding-top: 10px;
   padding-right: 21px;
   margin: 16px auto;
+  animation: contact-btn-animation 1s ease-in-out infinite;
 }
 
 .contact-btn:hover {
@@ -675,7 +676,3 @@ p#modal-close {
   }
 }
 
-/* apply the animation to the element */
-.contact-btn {
-  animation: contact-btn-animation 1s ease-in-out infinite;
-}
