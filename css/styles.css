@@ -69,8 +69,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #6070ffe6;
-  backdrop-filter: blur(2px);
+  background: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(5px);
   list-style: none;
   padding-top: 6rem;
 }
