@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kayjeee/Hello-MicroVerse-by-kg#readme",
   "devDependencies": {
+    "eslint": "^8.38.0",
     "hint": "^7.1.5",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
