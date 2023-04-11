@@ -26,7 +26,7 @@ listItems.forEach(
 
 // Work Section
 
-const portfolioCards = [
+const portfolioCardstwo = [
   {
     title: 'Tonic',
     title1: 'Tonic',
@@ -70,7 +70,7 @@ const portfolioCards = [
 ];
 
 const demo = document.getElementById('portfolio');
-demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
+demo.innerHTML = portfolioCardstwo.reduce((output, portfolio) => (
   `${output
   }
     <article class="card large-card">
