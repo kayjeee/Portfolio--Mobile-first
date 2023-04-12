@@ -66,7 +66,6 @@ const portfolioCardstwo = [
     languages: ['html', 'css', 'JavaScript'],
     liveLink: 'https://github.com/kayjeee/Portfolio-project',
     github: 'https://github.com/kayjeee/Portfolio-project',
-    github: 'https://github.com/kayjeee/Portfolio-project',
   },
 ];
 
