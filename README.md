@@ -38,7 +38,6 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -117,7 +116,16 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-N/A
+In order to run this project you need:
+
+Install one of these latest web browsers to these website
+Supported browsers / platforms:
+
+Google Chrome (latest version) — Windows, Mac OS X, iOS, Android
+Apple Safari (latest version) — Mac OS X, iOS
+Microsoft Internet Explorer 11+ — Windows
+Microsoft Edge (latest version) — Windows
+Mozilla Firefox (latest version) — Windows
 
 ### Setup
 
@@ -128,17 +136,30 @@ git clone git@github.com:kayjeee/Microverse-Portfolio.git
 
 ### Install
 
-N/A
+Stylelint
+A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 
-### Usage
+1.Run
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+ESLint
+helps you find and fix problems with your JavaScript code
+
+2.Run 
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+
 
 N/A
 
 ### Run tests
+Eslint tests
+Run
+npx eslint .
 
-N/A
-
-N/A
+Stylelint tests
+Run
+npx stylelint "**/*.{css,scss}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
