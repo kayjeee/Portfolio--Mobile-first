@@ -114,7 +114,7 @@ demo.innerHTML = portfolioCardstwo.reduce((output, portfolio) => (
 
 // Modal popup
 
-const closeButton = document.querySelector('#modal-close');
+const closeButton1 = document.querySelector('#modal-close');
 const btn = document.querySelectorAll('[data-open]');
 const overlay = document.querySelector('.popup-overlay');
 const modal1 = document.querySelector('#modal1');
@@ -125,7 +125,7 @@ btn.forEach((btnx) => {
   });
 });
 
-closeButton.addEventListener('click', () => {
+closeButton1.addEventListener('click', () => {
   modal1.style.display = 'none';
   overlay.style.display = 'none';
 });
