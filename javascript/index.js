@@ -135,16 +135,12 @@ const email = document.querySelector('#email');
 const errorElement = document.getElementById('error');
 errorElement.style.color = 'red';
 
-
 formInput.addEventListener('submit', (e) => {
   e.preventDefault(); // prevent the default form submission
 
   if (email.value === email.value.toLowerCase()) {
-    alert('Form submitted successfully!');
     formInput.submit();
   } else {
     errorElement.innerText = 'Please type your e-mail in lowercase';
   }
-
 });
-// Local Storage
