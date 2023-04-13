@@ -140,7 +140,6 @@ formInput.addEventListener('submit', (e) => {
   e.preventDefault(); // prevent the default form submission
 
   if (email.value === email.value.toLowerCase()) {
-    alert('Form submitted successfully!');
     formInput.submit();
   } else {
     errorElement.innerText = 'Please type your e-mail in lowercase';
