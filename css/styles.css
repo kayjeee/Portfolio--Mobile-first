@@ -464,7 +464,7 @@ label {
   border-radius: 5px;
   width: 75vw;
   padding: 3rem;
-  height:50px;
+  height: 50px;
   margin-left: 3rem;
 }
 
@@ -598,7 +598,7 @@ textarea {
 .popup {
   margin: 10px 0;
   position: fixed;
-  bottom:50%;
+  bottom: 50%;
   left: 50%;
   transform: translate(-50%, 50%);
   width: 80%;
@@ -1020,7 +1020,6 @@ p#modal-close {
   .popup {
     margin: -388px 0;
     position: fixed;
-    /* top: -46%; */
     left: 50%;
     transform: translate(-50%, 50%);
     width: 65%;
@@ -1054,7 +1053,7 @@ p#modal-close {
     width: 90%;
     height: 320px;
     margin: 0 auto;
-    top:5px;
+    top: 5px;
   }
 
   .img-popup-div > img {
@@ -1149,8 +1148,7 @@ p#modal-close {
     width: 100%;
     margin: -25;
     padding: 15px;
-    top:10px;
-    padding: 2rem 1.3em;
+    top: 10px;
   }
 
   a.mobile-btn.btn {
