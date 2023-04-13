@@ -146,13 +146,5 @@ formInput.addEventListener('submit', (e) => {
     errorElement.innerText = 'Please type your e-mail in lowercase';
   }
 
-  // retrieve the form data using the FormData API
-  // const formData = new FormData(formInput);
-
-  // send the form data to a server using AJAX
-  // const xhr = new XMLHttpRequest();
-  // xhr.open('POST', '/submit-form');
-  // xhr.send(formData);
-  // display a success message to the user
 });
 // Local Storage
