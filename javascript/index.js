@@ -136,5 +136,23 @@ const errorElement = document.getElementById('error');
 errorElement.style.color = 'red';
 
 
+formInput.addEventListener('submit', (e) => {
+  e.preventDefault(); // prevent the default form submission
 
+  if (email.value === email.value.toLowerCase()) {
+    alert('Form submitted successfully!');
+    formInput.submit();
+  } else {
+    errorElement.innerText = 'Please type your e-mail in lowercase';
+  }
+
+  // retrieve the form data using the FormData API
+  // const formData = new FormData(formInput);
+
+  // send the form data to a server using AJAX
+  // const xhr = new XMLHttpRequest();
+  // xhr.open('POST', '/submit-form');
+  // xhr.send(formData);
+  // display a success message to the user
+});
 // Local Storage
