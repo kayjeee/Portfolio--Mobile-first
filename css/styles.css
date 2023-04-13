@@ -462,8 +462,9 @@ label {
 .modal-window {
   background-color: var(--white);
   border-radius: 5px;
-  width: 90vw;
+  width: 75vw;
   padding: 3rem;
+  height:50px;
   margin-left: 3rem;
 }
 
@@ -597,7 +598,7 @@ textarea {
 .popup {
   margin: 10px 0;
   position: fixed;
-  top: -35%;
+  bottom:50%;
   left: 50%;
   transform: translate(-50%, 50%);
   width: 80%;
@@ -654,7 +655,7 @@ a.mobile-btn {
   font-size: 12px;
   padding: 10px;
   text-decoration: none;
-  margin: 4px;
+  margin: 14px;
   text-align: center;
 }
 
@@ -1017,14 +1018,16 @@ p#modal-close {
   }
 
   .popup {
-    margin: 10px 0;
+    margin: -388px 0;
     position: fixed;
-    top: -38%;
+    /* top: -46%; */
     left: 50%;
     transform: translate(-50%, 50%);
-    width: 80%;
+    width: 65%;
+    bottom: 110%;
     border: 1px solid #fff;
     z-index: 1000;
+    height: 630px;
     transition: display 1s linear;
     background: #fff;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -1051,6 +1054,7 @@ p#modal-close {
     width: 90%;
     height: 320px;
     margin: 0 auto;
+    top:5px;
   }
 
   .img-popup-div > img {
@@ -1067,8 +1071,8 @@ p#modal-close {
   }
 
   p#modal-close {
-    font-size: 3.5rem;
-    font-size: 6;
+    font-size: 1.5rem;
+    font-size: 3;
     color: #67798e;
   }
 
@@ -1141,17 +1145,19 @@ p#modal-close {
   .modal-btn {
     display: flex;
     flex-direction: row;
-    text-align: center;
+    text-align: left;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: -25;
+    padding: 15px;
+    top:10px;
+    padding: 2rem 1.3em;
   }
 
   a.mobile-btn.btn {
-    padding: 2rem 1.3em;
+    padding: 1.5rem 1.5rem;
     text-align: center;
-    width: 120px;
-    margin: 1.5rem 0.2rem;
+    width: 100px;
+    margin: 0.5rem 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
