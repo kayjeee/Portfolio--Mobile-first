@@ -130,17 +130,16 @@ closeButton1.addEventListener('click', () => {
 });
 
 // Forms
-const formInput = document.getElementById('forms');
+const formInput = document.querySelector('form');
 const email = document.querySelector('#email');
 const errorElement = document.getElementById('error');
 errorElement.style.color = 'red';
 
 formInput.addEventListener('submit', (e) => {
-  e.preventDefault(); // prevent the default form submission
-
   if (email.value === email.value.toLowerCase()) {
     formInput.submit();
   } else {
+    e.preventDefault();
     errorElement.innerText = 'Please type your e-mail in lowercase';
   }
 });
