@@ -133,7 +133,7 @@ closeButton1.addEventListener('click', () => {
 const formInput = document.querySelector('form');
 const email = document.querySelector('#email');
 const errorElement = document.getElementById('error');
-errorElement.style.color = 'red';
+errorElement.style.color = 'white';
 
 formInput.addEventListener('submit', (e) => {
   if (email.value === email.value.toLowerCase()) {
