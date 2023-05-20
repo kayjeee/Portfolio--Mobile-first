@@ -55,7 +55,9 @@ S
 
 
 
-**Portfolio--Mobile Frst** is a project for web designer Portfolio
+**Portfolio--Mobile Frst** 
+A website showcasing few of the projects I have worked on.
+This was a project for micro vesre.
 
 ## 🛠 Built With <a name="built-with"></a>
 
