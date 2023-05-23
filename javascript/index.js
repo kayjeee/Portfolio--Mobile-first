@@ -26,7 +26,7 @@ listItems.forEach(
 
 // Work Section
 
-const portfolioCards = [
+const portfolioCardstwo = [
   {
     title: 'Tonic',
     title1: 'Tonic',
@@ -70,7 +70,7 @@ const portfolioCards = [
 ];
 
 const demo = document.getElementById('portfolio');
-demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
+demo.innerHTML = portfolioCardstwo.reduce((output, portfolio) => (
   `${output
   }
     <article class="card large-card">
@@ -105,7 +105,7 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
           <ul class="categories">
           ${portfolio.languages.map((x) => `<li>${x}</li>`).join('')}
           </ul>
-          <button class="btn card-button" data-open="modal11">See Project</button>
+          <button class="btn card-button" data-open="modal">See Project</button>
         </div>
       </article>
   `
@@ -113,19 +113,19 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
 
 // Modal popup
 
-const closeButton = document.querySelector('#modal-close');
+const closeButton1 = document.querySelector('#modal-close');
 const btn = document.querySelectorAll('[data-open]');
 const overlay = document.querySelector('.popup-overlay');
-const modal1 = document.querySelector('#modal1');
+const modal = document.querySelector('#modal');
 btn.forEach((btnx) => {
   btnx.addEventListener('click', () => {
-    modal1.style.display = 'block';
+    modal.style.display = 'block';
     overlay.style.display = 'block';
   });
 });
 
-closeButton.addEventListener('click', () => {
-  modal1.style.display = 'none';
+closeButton1.addEventListener('click', () => {
+  modal.style.display = 'none';
   overlay.style.display = 'none';
 });
 
