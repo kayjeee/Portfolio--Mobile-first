@@ -26,7 +26,7 @@ listItems.forEach(
 
 // Work Section
 
-const portfolioCards = [
+const portfolioCardstwo = [
   {
     title: 'Tonic',
     title1: 'Tonic',
@@ -70,7 +70,7 @@ const portfolioCards = [
 ];
 
 const demo = document.getElementById('portfolio');
-demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
+demo.innerHTML = portfolioCardstwo.reduce((output, portfolio) => (
   `${output
   }
     <article class="card large-card">
@@ -113,7 +113,7 @@ demo.innerHTML = portfolioCards.reduce((output, portfolio) => (
 
 // Modal popup
 
-const closeButton = document.querySelector('#modal-close');
+const closeButton1 = document.querySelector('#modal-close');
 const btn = document.querySelectorAll('[data-open]');
 const overlay = document.querySelector('.popup-overlay');
 const modal1 = document.querySelector('#modal1');
@@ -124,24 +124,22 @@ btn.forEach((btnx) => {
   });
 });
 
-closeButton.addEventListener('click', () => {
+closeButton1.addEventListener('click', () => {
   modal1.style.display = 'none';
   overlay.style.display = 'none';
 });
 
 // Forms
-const formInput = document.getElementById('forms');
+const formInput = document.querySelector('form');
 const email = document.querySelector('#email');
 const errorElement = document.getElementById('error');
-errorElement.style.color = 'red';
+errorElement.style.color = 'white';
 
 formInput.addEventListener('submit', (e) => {
-  e.preventDefault();
   if (email.value === email.value.toLowerCase()) {
     formInput.submit();
   } else {
+    e.preventDefault();
     errorElement.innerText = 'Please type your e-mail in lowercase';
   }
 });
-
-// Local Storage
